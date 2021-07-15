@@ -1,0 +1,50 @@
+{
+  "name": "trufanovasite",
+  "version": "1.0.0",
+  "description": "'Portfolio Web-developer'",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trufanova/pr18-my-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trufanova/pr18-my-site/issues"
+  },
+  "homepage": "https://github.com/trufanova/pr18-my-site#readme",
+  "devDependencies": {
+    "apply": "^0.2.17",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^5.2.6",
+    "extract-loader": "^5.1.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.0.0",
+    "node-sass": "^6.0.1",
+    "pug": "^3.0.2",
+    "pug-html-loader": "^1.1.5",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^2.0.0",
+    "svgo-loader": "^3.0.0",
+    "webpack": "^5.40.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "jquery": "^3.6.0",
+    "normalize.css": "^8.0.1",
+    "pug-cli": "^1.0.0-alpha6",
+    "url-loader": "^4.1.1"
+  },
+  "main": "webpack.config.js"
+}

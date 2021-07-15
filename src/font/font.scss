@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Futura PT';
+    src: url('./font/FuturaPT-Heavy.eot');
+    src: local('./font/Futura PT Heavy'), local('FuturaPT-Heavy'),
+        url('./font/FuturaPT-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('./font/FuturaPT-Heavy.woff') format('woff'),
+        url('./font/FuturaPT-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('./font/FuturaPT-Book.eot');
+    src: local('./font/Futura PT Book'), local('FuturaPT-Book'),
+        url('./font/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
+        url('./font/FuturaPT-Book.woff') format('woff'),
+        url('./font/FuturaPT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('./font/FuturaPT-Bold.eot');
+    src: local('./font/Futura PT Bold'), local('FuturaPT-Bold'),
+        url('./font/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./font/FuturaPT-Bold.woff') format('woff'),
+        url('./font/FuturaPT-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+body {
+    font-family: 'Futura PT';
+    color: #fff;
+}
+h1 {
+    font-family: 'Futura PT';
+    font-weight: 900;
+    font-size: 46px;
+}
+
+
+
+

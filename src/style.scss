@@ -1,0 +1,11 @@
+body {
+    background: #212121;
+    color: #fff;
+}
+
+@import './font/font.scss';
+@import './container/container.scss';
+@import './main/main.scss';
+@import './header/header.scss';
+@import './switch-color-scheme/switch-color-scheme.scss';
+
